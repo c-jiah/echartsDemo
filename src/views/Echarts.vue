@@ -7,7 +7,7 @@ import 'echarts-liquidfill/src/liquidFill.js';
 export default {
   data() {
     return {
-        score:0.8,
+        score:0.5,
         healthyName:'良好'
     }
 },
@@ -45,9 +45,8 @@ methods: {
 　　　　　　　　　　label: {
 　　　　　　　　　　　　normal: {
 　　　　　　　　　　　　　　formatter:
-　　　　　　　　　　　　　　(value * 100).toFixed(0) +
-　　　　　　　　　　　　　　　　　　　　'\n' +           //换行
-　　　　　　　　　　　　　　　　　　　　'\n' +
+　　　　　　　　　　　　　　(value * 100).toFixed(0) +'\n' +'\n' 
+                                    +
 　　　　　　　　　　　　　　　　　　this.healthyName,   //良好？差？优秀
 　　　　　　　　　　　　　　textStyle: {
 　　　　　　　　　　　　　　　　fontSize: 50 //字体大小
