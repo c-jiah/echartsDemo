@@ -1,5 +1,5 @@
 <template>
-  <div id="myChartWhater" :style="{width: '340px', height: '220px',margin:'0 auto',}"></div>
+  <div id="myChartWhater" :style="{width: '400px', height: '300px',margin:'0 auto',}"></div>
 </template>
 
 <script>
@@ -27,19 +27,19 @@ export default {
             roseType: false,
             data: [
               {
-                value: 40,
+                value: 30,
                 name: "红色预警"
               },
               {
-                value: 30,
+                value: 40,
                 name: "橙色预警"
               },
               {
-                value: 10,
+                value: 20,
                 name: "黄色预警"
               },
               {
-                value: 50,
+                value: 40,
                 name: "蓝色预警"
               }
             ],
@@ -82,7 +82,7 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 h3 {
   margin: 40px 0 0;
