@@ -23,7 +23,7 @@ export default {
                     textStyle:{
                         color:'#000'
                     },
-                    formatter: "{a} <br/>{b}: {c} ({d}%)"
+                    // formatter: "{a} <br/>{b}: {c} ({d}%)"
                 },
                 legend: {
                     orient: 'horizontal', //  vertical
@@ -39,7 +39,7 @@ export default {
                     {
                         name:'访问来源',
                         type:'pie',
-                        radius: ['30%', '50%'],
+                        radius: ['30%', '45%'],
                         avoidLabelOverlap: false,
                         itemStyle:{ //设置饼图板块之间的间距
                             normal: {
