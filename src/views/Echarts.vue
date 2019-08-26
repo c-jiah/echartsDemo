@@ -5,17 +5,18 @@
 <script>
 import 'echarts-liquidfill/src/liquidFill.js';
 export default {
-  data() {
-    return {
-        score:0.5,
-        healthyName:'良好'
-    }
-},
-mounted() {
-    this.initWhater()
-},
-methods: {
-    initWhater() {
+    name:'Echarts',
+    data() {
+        return {
+            score:0.5,
+            healthyName:'良好'
+        }
+    },
+    mounted() {
+        this.initWhater()
+    },
+    methods: {
+        initWhater() {
 　　　　var value = this.score
 
 　　　　let myChart = this.$echarts.init(document.getElementById('myChartWhater'))

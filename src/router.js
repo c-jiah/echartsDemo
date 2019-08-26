@@ -17,6 +17,11 @@ export default new Router({
       path: '/echarts',
       name: 'echarts',
       component: () => import(/* webpackChunkName: "about" */ './views/Echarts.vue')
+    },
+    {
+      path: '/echarts2',
+      name: 'echarts2',
+      component: () => import( './views/Echarts2.vue')
     }
   ]
 })
